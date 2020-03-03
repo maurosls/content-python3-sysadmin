@@ -13,17 +13,24 @@ course.
 
 ## Packages to Install on a Custom Remote Python Server for development 
 
-$ sudo su -
-$ yum update
-$ yum groupinstall -y "development tools"
-$ yum install -y \
+
+/**
+sudo su -
+yum update
+yum groupinstall -y "development tools"
+yum install -y \
   lsof \
   wget \
   vim-enhanced \
   words \
   which
-$ exit
+exit
+**/
 
-$ curl https://raw.githubusercontent.com/linuxacademy/content-python3-sysadmin/master/helpers/bashrc -o ~/.bashrc
+/**
+curl https://raw.githubusercontent.com/linuxacademy/content-python3-sysadmin/master/helpers/bashrc -o ~/.bashrc
+**/
 
-$ curl https://raw.githubusercontent.com/linuxacademy/content-python3-sysadmin/master/helpers/vimrc -o ~/.vimrc
+/**
+curl https://raw.githubusercontent.com/linuxacademy/content-python3-sysadmin/master/helpers/vimrc -o ~/.vimrc
+**/
