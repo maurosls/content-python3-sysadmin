@@ -11,7 +11,7 @@ course.
 
 
 
-Packages to Install on a Custom Remote Python Server for development 
+## Packages to Install on a Custom Remote Python Server for development 
 
 $ sudo su -
 $ yum update
